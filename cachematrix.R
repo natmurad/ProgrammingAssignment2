@@ -1,7 +1,12 @@
-## Put comments here that give an overall description of what your
-## functions do
+## First function creates a cache matrix and the second access this matrix and calculate
+## its inverse
 
-## Write a short comment describing this function
+
+## makeCacheMatrix takes in an invertible square matrix and returns a list of functions.
+## set set caches the passed in data to x and sets the inv value to Null
+## get returns the cached x value
+## setinv sets the inv variable to the passed in inverse Matrix
+## getinv returns the inverse Matrix
 
 makeCacheMatrix <- function(x = matrix()) {
         inv <- NULL
